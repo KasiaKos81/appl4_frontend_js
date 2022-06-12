@@ -1,7 +1,59 @@
-.App {
+.NaglowekStrony {
   text-align: center;
-  font-size: 1em;
+  font-size: 1.4em;
   font-style: italic;
+  background-color: red;
 
+}
+
+.SingleLogo{
+  margin: 5px;
+  border: 5px solid black;
+  padding: 4px;
+  width: 30%;
+  transition: 1s;
+}
+
+.SingleLogo:hover {
+  animation-name: nasza_animacja;
+  animation-duration: 1s;
+  background-color: violet;
+  font-size: 6em;
+}
+@keyframes nasza_animacja {
+0%{
+  /* width: 0px;*/
+    background-color: darkviolet;
+    font-size: 1.4em;
+ }
+  50%{
+    background-color: yellow;
+    font-size: 2em;
+  }
+  100%{
+   /* width: 33%; */
+    background-color: violet;
+    font-size: 6em;
+  }
+}
+
+
+
+.Logos{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.LewaStrona{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+
+}
+.Tytul{
+  background-color: blue;
+  width: 100%;
 }
 

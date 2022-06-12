@@ -1,0 +1,40 @@
+.ElementGlowny{
+
+    width: 66%;
+    background-color: aqua;
+    height: 500px;
+    margin: auto;
+
+}
+
+.NaglowekTabeli{
+    font-weight: bold;
+    padding: 3px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.TabelaGrid {
+    padding: 30px;
+}
+
+.WierszeTabeli :hover{
+    background-color: azure !important;
+}
+
+.WierszeTabeli :nth-child(even){
+background-color: deeppink;
+}
+.WierszeTabeli :nth-child(odd){
+    background-color: violet;
+}
+
+.KomorkaTabeli{ /*dotyczy całego wiersza*/
+background-color: #00f0f0;
+}
+
+.KomorkaTabeli div{ /*dotyczy kazdej komorki w wierszu*/
+    border: 1px solid black;
+    padding: 0 2px 0 2px; /*gora, prawo, dol, lewo -> zgodnie z wskazowkami zegara */
+
+}
